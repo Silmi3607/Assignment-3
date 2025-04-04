@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the repository
-                git 'https://github.com/your-repo.git'  // Replace with your repo URL
+                git 'https://github.com/Meesum3595/Assignment3.git'  // Replace with your repo URL
             }
         }
 
