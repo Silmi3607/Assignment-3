@@ -3,11 +3,11 @@ pipeline {
 
     environment {
         // Define environment variables for Docker and SonarQube
-        DOCKER_CREDENTIALS_ID = 'dockerhub-creds'  // Set your DockerHub credentials ID
+        DOCKER_CREDENTIALS_ID = 'Meesum3595'  // Set your DockerHub credentials ID
         DOCKER_IMAGE = 'meesum3595/devsecops-app'  // Define your Docker image name
         SONARQUBE_PROJECT_KEY = 'devsecops-project'  // Your SonarQube project key
         SONARQUBE_URL = 'http://localhost:9000'  // Update with your SonarQube URL if different
-        SONARQUBE_AUTH_TOKEN = 'your-sonarqube-token'  // Replace with your actual SonarQube token
+        SONARQUBE_AUTH_TOKEN = 'squ_290f1ec3dc0cc10d1dfbda7108c7a99453ba965a'  // Replace with your actual SonarQube token
     }
 
     stages {
