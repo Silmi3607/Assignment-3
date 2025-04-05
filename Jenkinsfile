@@ -6,7 +6,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'Silmi3607'  // Set your DockerHub credentials ID
         DOCKER_IMAGE = 'Silmi3607/devsecops-app'  // Define your Docker image name
         SONARQUBE_PROJECT_KEY = 'devsecops-project'  // Your SonarQube project key
-        SONARQUBE_URL = 'http://localhost:8081'  // Update with your SonarQube URL if different
+        SONARQUBE_URL = 'http://localhost:9000'  // Update with your SonarQube URL if different
         SONARQUBE_AUTH_TOKEN = 'squ_170f8ec3ec0dc20c1dcbfa5649c7a99453ba965a'  // Replace with your actual SonarQube token
     }
 
