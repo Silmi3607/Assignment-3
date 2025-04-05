@@ -3,18 +3,18 @@ pipeline {
 
     environment {
         // Define environment variables for Docker and SonarQube
-        DOCKER_CREDENTIALS_ID = 'Meesum3595'  // Set your DockerHub credentials ID
-        DOCKER_IMAGE = 'meesum3595/devsecops-app'  // Define your Docker image name
+        DOCKER_CREDENTIALS_ID = 'Silmi3607'  // Set your DockerHub credentials ID
+        DOCKER_IMAGE = 'Silmi3607/devsecops-app'  // Define your Docker image name
         SONARQUBE_PROJECT_KEY = 'devsecops-project'  // Your SonarQube project key
-        SONARQUBE_URL = 'http://localhost:9000'  // Update with your SonarQube URL if different
-        SONARQUBE_AUTH_TOKEN = 'squ_290f1ec3dc0cc10d1dfbda7108c7a99453ba965a'  // Replace with your actual SonarQube token
+        SONARQUBE_URL = 'http://localhost:8081'  // Update with your SonarQube URL if different
+        SONARQUBE_AUTH_TOKEN = 'squ_170f8ec3ec0dc20c1dcbfa5649c7a99453ba965a'  // Replace with your actual SonarQube token
     }
 
     stages {
         stage('Checkout') {
             steps {
                 // Checkout code from the repository
-                git 'https://github.com/Meesum3595/Assignment3.git'  // Replace with your repo URL
+                git 'https://github.com/Silmi3607/Assignment3.git'  // Replace with your repo URL
             }
         }
 
